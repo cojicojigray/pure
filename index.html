@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your page title</title>
+
+    <link rel="stylesheet" href="./css/pure-min.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="./css/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="./css/grids-responsive-min.css">
+    <!--<![endif]-->
+    <style type="text/css">
+<!--
+.grids-example [class*="pure-u"] {
+  border-style:solid none solid solid;
+  border-color:#DDDDDD;
+  border-width: 1px 1px 0 1px;
+  text-align:center;
+  margin-left: -1px;
+}
+//-->
+</style>
+</head>
+<body>
+    <!--
+    Your HTML goes here. Visit purecss.io/layouts/ for some sample HTML code.
+    -->
+    <div class="table-responsive">
+        <table class="mq-table pure-table-bordered pure-table">
+    <thead>
+        <tr>
+            <th class="highlight">Key</th>
+            <th class="highlight">CSS Media Query</th>
+            <th>Applies</th>
+            <th>Classname</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="highlight"><i>None</i></td>
+            <td class="highlight"><i>None</i></td>
+            <td><i>Always</i></td>
+            <td><code>.pure-u-*</code></td>
+        </tr>
+
+      
+        <tr>
+            <td class="highlight"><b><code>sm</code></b></td>
+            <td class="mq-table-mq highlight"><code>@media screen and (min-width: 35.5em)</code></td>
+            <td>≥ <b>568px</b></td>
+            <td><code>.pure-u-<b>sm</b>-*</code></td>
+        </tr>
+      
+        <tr>
+            <td class="highlight"><b><code>md</code></b></td>
+            <td class="mq-table-mq highlight"><code>@media screen and (min-width: 48em)</code></td>
+            <td>≥ <b>768px</b></td>
+            <td><code>.pure-u-<b>md</b>-*</code></td>
+        </tr>
+      
+        <tr>
+            <td class="highlight"><b><code>lg</code></b></td>
+            <td class="mq-table-mq highlight"><code>@media screen and (min-width: 64em)</code></td>
+            <td>≥ <b>1024px</b></td>
+            <td><code>.pure-u-<b>lg</b>-*</code></td>
+        </tr>
+      
+        <tr>
+            <td class="highlight"><b><code>xl</code></b></td>
+            <td class="mq-table-mq highlight"><code>@media screen and (min-width: 80em)</code></td>
+            <td>≥ <b>1280px</b></td>
+            <td><code>.pure-u-<b>xl</b>-*</code></td>
+        </tr>
+      
+    </tbody>
+</table>
+
+    </div>
+<div class="grids-example">
+    
+    <div class="pure-g" >
+    <div class="pure-u-1">.pure-u-1</div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        .pure-u-1<br>.pure-u-md-1-2<br>.pure-u-lg-1-4
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        .pure-u-1<br>.pure-u-md-1-2<br>.pure-u-lg-1-4
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        .pure-u-1<br>.pure-u-md-1-2<br>.pure-u-lg-1-4
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        .pure-u-1<br>.pure-u-md-1-2<br>.pure-u-lg-1-4
+    </div>
+    <div class="pure-u-1 pure-u-md-3-4">.pure-u-1<br>.pure-u-md-3-4</div>
+    <div class="pure-u-1 pure-u-md-1-4">.pure-u-1<br>.pure-u-md-1-4</div>
+    </div>
+</div>
+
+    <form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+        <label for="remember">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+    </form>
+
+    <a class="pure-button pure-button-active" href="#">Anchor Link Button1</a>
+    <a class="pure-button pure-button-active" href="#">Anchor Link Button2</a>
+    <button class="pure-button pure-button-active">button tag Button1</button>
+    <button class="pure-button pure-button-active">button tag Button2</button>
+
+
+</body>
+</html>
